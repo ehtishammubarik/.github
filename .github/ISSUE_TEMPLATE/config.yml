@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ehtishammubarik/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Email ehtisham@eprecisio.com instead.
+  - name: Question or usage help
+    url: https://github.com/ehtishammubarik/.github/blob/main/SUPPORT.md
+    about: How to ask, and what level of support these repositories carry.
+  - name: Commercial or consulting enquiry
+    url: https://eprecisio.com
+    about: Production infrastructure, Kubernetes platforms, GPU and MLOps work.
