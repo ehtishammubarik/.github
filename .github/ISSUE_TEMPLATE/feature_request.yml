@@ -1,0 +1,37 @@
+name: Feature request
+description: Propose a change or addition.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you actually trying to do, and where does it break down today?
+      placeholder: |
+        I need to X, but the tool only supports Y, so I currently work around it by Z.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Including doing nothing. If the workaround is fine, say so.
+
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Would you be willing to implement this?
+      options:
+        - "Yes, if the approach is agreed first"
+        - "Maybe, with guidance"
+        - "No, requesting only"
+    validations:
+      required: true
